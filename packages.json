@@ -1,0 +1,20 @@
+{
+  "name": "my-probot",
+  "private": true,
+  "dependencies": {
+    "probot-reminders": "probot/reminders",
+    "request-info": "behaviorbot/request-info",
+    "wip-bot": "gr2m/wip-bot"
+  },
+  "scripts": {
+    "start": "probot run"
+ },
+ "probot": {
+   "plugins": [
+     "probot-reminders",
+     "request-info",
+     "wip-bot"
+   ]
+ },
+  "engines": { "node": "7.x" }
+}
